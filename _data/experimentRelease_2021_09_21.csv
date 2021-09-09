@@ -1,4 +1,4 @@
-﻿ID,TestName,Email,Name,ReleaseDate,Owner,ProjectFeatureTitle,Description,Looks,Screenshot,Duration,TestingPlatform,RollOut,Platforms,Pages,Success,Reporting,Squad,Stakeholders,Details,Next,Notes
+﻿ID,TestName,Email,Name,ReleaseDate,Owner,ProjectFeatureTitle,Description,Looks,Screenshot,Duration,TestingPlatform,RollOut,Platforms,Pages,Success,Reporting,Squad,Stakeholders,Details,Next,Notes,Figma
 2,Walmart Cash Back Rate Anchor A/B Test,gabriela.blumberg@rakuten.com,Walmart Cash Back Rate Anchor A/B Test,9/21/2021,"Gabriela Blumberg, James Seymour-Lock",Cash Back Transparency,"We are looking into ways to validate Walmart’s use of an “anchor” Cash Back rate (setting 1 very low-shopped category, in this case Photo Center, to increase their displayed Cash Back rate while all other categories remain at 1%) not serving the business or members well, particularly given the breadth of exclusions in Walmart’s program.
  
 Purchase squad is planning to run an A/B test to look into the effects of showing the current “Up to 6%” anchor vs. a Cash Back rate more in line with what Walmart actually offers – 1%. 
@@ -16,7 +16,7 @@ Total Commission (all merchants)
 Secondary Metrics:
 Reduction of member service tickets for missing cash back as a percentage of total inquiries
 Reduction of comped payouts (volume & dollars) for missing cash back as a percentage of total payouts for Walmart","Shirley will help us set up Dashboards, platform TBC",Purchase/ Post Purchase;,DST;Marketing;Member Services;Sales;Revenue Planning;,"https://confluence.corp.ebates.com/display/JOUR/PRD+-+Walmart+Cash+Back+Display+Experiment
-https://www.figma.com/file/RXnKXeJWDMrkT2IH0O8L1h/Walmart-A%2FB-Cash-Back-Experiment?node-id=0%3A1","Provide an assessment of findings around the following hypotheses:
+","Provide an assessment of findings around the following hypotheses:
 Using ""Anchor CB %"" that don't apply to popular categories hurts our business
 -Should we allow merchants to use an anchor number?
 -True base traffic vs. Inflated base traffic - how does it impact the business? Is what is good for merchants good for us too?
@@ -28,4 +28,4 @@ GMV will drop  but Net Commission:Total Sales will increase
 When we align what we show with what members expect, there's less friction/overhead associated with getting Cash Back in members hands (we save money because members expectations are better aligned with the offer)
 -Less commission payout by MS on 'ineligible' orders
 -Less cost of addressing inquiries
--Good for the user - less time/less friction in getting Cash Back","We have coordinated with multiple teams and stakeholders to ensure this test does not overlap with other tests involving Walmart and avoids any promo, hot deal or campaign timeframes to generate as clean of a dataset as possible."
+-Good for the user - less time/less friction in getting Cash Back","We have coordinated with multiple teams and stakeholders to ensure this test does not overlap with other tests involving Walmart and avoids any promo, hot deal or campaign timeframes to generate as clean of a dataset as possible.","https://www.figma.com/file/RXnKXeJWDMrkT2IH0O8L1h/Walmart-A%2FB-Cash-Back-Experiment?node-id=0%3A1"
