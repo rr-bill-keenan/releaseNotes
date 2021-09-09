@@ -1,0 +1,31 @@
+﻿ID,TestName,Email,Name,ReleaseDate,Owner,ProjectFeatureTitle,Description,Looks,Screenshot,Duration,TestingPlatform,RollOut,Platforms,Pages,Success,Reporting,Squad,Stakeholders,Details,Next,Notes
+2,Walmart Cash Back Rate Anchor A/B Test,gabriela.blumberg@rakuten.com,Walmart Cash Back Rate Anchor A/B Test,9/21/2021,"Gabriela Blumberg, James Seymour-Lock",Cash Back Transparency,"We are looking into ways to validate Walmart’s use of an “anchor” Cash Back rate (setting 1 very low-shopped category, in this case Photo Center, to increase their displayed Cash Back rate while all other categories remain at 1%) not serving the business or members well, particularly given the breadth of exclusions in Walmart’s program.
+ 
+Purchase squad is planning to run an A/B test to look into the effects of showing the current “Up to 6%” anchor vs. a Cash Back rate more in line with what Walmart actually offers – 1%. 
+ 
+We expect to see if and how member behavior changes when we align Cash Back rates with members’ expectations. We believe Walmart’s anchor Cash Back misleads members and not only costs us directly in Member Services payouts for both eligible and ineligible purchases, but also costs the business and other merchants when members unknowingly opt for what they believe is a great Cash Back rate at Walmart - 6% is pretty high! - when they could be more handsomely rewarded shopping with another merchant. ","Members in PUR02X (Control) will see the existing Cash Back rate of ""Up to 6%"" across our product
+Members in PUR02A (Variant) will see a Cash Back rate of ""Up to 1%"" across our product",https://officerakuten-my.sharepoint.com/personal/bill_keenan_rakuten_com/Documents/%E3%82%A2%E3%83%97%E3%83%AA/Microsoft%20Forms/Experiment%20Release%20(Copy)/Upload%20screenshots%20of%20the%20control%20and%20variants/Screen%20Shot%202021-09-09%20at%2010.16.46%20AM_Gabi%20Blumberg.png,Less than 2 weeks,Targeted Cash Back,BI will be constructing 2 predetermined audience groups comprised of existing members that will be uploaded into the Targeted Cash Back system. FTBs will not be included in the test since we do not have engineering capacity to build a way to include them at this time. We will roll out in increments to ensure traffic is distributed and the UX is displayed as expected.,Web;Mobile Web;iOS;Android;Button;,Anywhere that displays a Cash Back rate,"Primary metrics we will be observing are changes to base KPI areas including:
+Walmart GMV
+Walmart Commission
+Walmart Shopping Trips Started
+Walmart Start Shopping Trip to Order Completed Conversion
+Distribution of sales across all Walmart categories
+Total sales (all merchants)
+Total Commission (all merchants)
+
+Secondary Metrics:
+Reduction of member service tickets for missing cash back as a percentage of total inquiries
+Reduction of comped payouts (volume & dollars) for missing cash back as a percentage of total payouts for Walmart","Shirley will help us set up Dashboards, platform TBC",Purchase/ Post Purchase;,DST;Marketing;Member Services;Sales;Revenue Planning;,"https://confluence.corp.ebates.com/display/JOUR/PRD+-+Walmart+Cash+Back+Display+Experiment
+https://www.figma.com/file/RXnKXeJWDMrkT2IH0O8L1h/Walmart-A%2FB-Cash-Back-Experiment?node-id=0%3A1","Provide an assessment of findings around the following hypotheses:
+Using ""Anchor CB %"" that don't apply to popular categories hurts our business
+-Should we allow merchants to use an anchor number?
+-True base traffic vs. Inflated base traffic - how does it impact the business? Is what is good for merchants good for us too?
+
+GMV will drop  but Net Commission:Total Sales will increase  
+-Do we see any net gains/losses in total sales in two groups because the money recirculates or do we just lose it
+-Are we sending Walmart more qualified traffic than it should be getting
+
+When we align what we show with what members expect, there's less friction/overhead associated with getting Cash Back in members hands (we save money because members expectations are better aligned with the offer)
+-Less commission payout by MS on 'ineligible' orders
+-Less cost of addressing inquiries
+-Good for the user - less time/less friction in getting Cash Back","We have coordinated with multiple teams and stakeholders to ensure this test does not overlap with other tests involving Walmart and avoids any promo, hot deal or campaign timeframes to generate as clean of a dataset as possible."

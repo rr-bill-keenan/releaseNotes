@@ -1,0 +1,81 @@
+<div class="experimentRelease{{include.content.id}} hiders">
+
+  <p><a id="{{include.content.id}}"></a></p>
+  <h2 id="test-another-test">Experiment: {{include.content.TestName}}</h2>
+
+  <div class="hiders" style="display:none">
+  <table>
+    <thead>
+      <tr>
+        <th>Test Name</th>
+        <th>Product Owner</th>
+        <th>Squad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{include.content.TestName}}</td>
+        <td>{{include.content.Owner}}</td>
+        <td>{{include.content.Squad}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 id="whats-changed">Project/ Feature Title: </h2>
+  <blockquote>
+    <p>{{include.content.ProjectFeatureTitle}}</p>
+  </blockquote>
+  
+  <h3 id="explain-the-results">Description:</h2>
+  <blockquote>
+    <p>{{ include.content.Description}}</p>
+  </blockquote>
+  
+  <h3 id="what-happened-to-cause-this">Whats does the experiment look like?:</h2>
+  <blockquote>
+    <p>{{ include.content.Looks}}</p>
+  </blockquote>
+  
+  <h3 id="whats-next">Duration:</h2>
+  <blockquote>
+    <p>{{ include.content.Duration}}</p>
+  </blockquote>
+
+  <h3 id="whats-next">Rollout:</h2>
+    <blockquote>
+      <p>{{ include.content.RollOut}}</p>
+    </blockquote>
+
+    <h3 id="whats-next">Platforms:</h2>
+      <blockquote>
+        <p>{{ include.content.Platforms}}</p>
+      </blockquote>
+
+  <h3 id="whats-next">What is success?:</h2>
+    <blockquote>
+      <p>{{ include.content.Success}}</p>
+    </blockquote>
+
+    <h3 id="whats-next">Stakeholders:</h2>
+      <blockquote>
+        <p>{{ include.content.Stakeholders}}</p>
+      </blockquote>
+      
+      <h3 id="whats-next">Details:</h2>
+        <blockquote>
+          <p><a href="{{ include.content.Details}}">link to details</a></p>
+        </blockquote>
+        <h3 id="whats-next">What's Next?:</h2>
+          <blockquote>
+            <p>{{ include.content.Next}}</p>
+          </blockquote>
+</div>
+</div>
+<hr>
+
+<script>
+  $('.experimentRelease{{include.content.id}}').click(function(){
+    $(this).find('.hiders').toggle();
+  });
+  </script>
+

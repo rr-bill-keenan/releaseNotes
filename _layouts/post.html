@@ -1,0 +1,38 @@
+---
+layout: home
+---
+
+
+{% assign updates = "experimentUpdate_" | append: page.releaseDate%}
+{% assign production = "productionRelease_" | append: page.releaseDate%}
+{% assign experiments = "experimentRelease_" | append: page.releaseDate%}
+
+<div class="home">
+  
+{% if site.data[production].size > 0 %}
+<h1 id="production-release">Production Release {{page.releaseDate}}</h1>
+
+{% for notes in site.data[production] %}
+{% include productionRelease.html content=notes %}
+{%endfor%}
+{% endif %}
+
+
+{% if site.data[experiments].size > 0 %}
+<h1 id="experiments">Experiments</h1>
+
+{% for notes in site.data[experiments] %}
+{% include experiment.html content=notes %}
+{% endfor %}
+{% endif %}
+
+{% if site.data[updates].size > 0 %}
+
+<h1 id="experiment-updates">Experiment Updates</h1>
+{% for notes in site.data[updates] %}
+
+{% include experimentUpdate.html content=notes %}
+
+{% endfor %}
+{% endif %}
+</div>

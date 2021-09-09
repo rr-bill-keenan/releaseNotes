@@ -1,0 +1,28 @@
+<!-- Sidebar -->
+
+{% assign posts = site.posts %}
+<div id="sidebar">
+    <div class="inner">
+      <nav id="menu">
+        <header class="major">
+          <h2>Menu</h2>
+        </header>
+        <ul>
+         
+          <li>
+            <a href="{{"/" | relative_url }}">Homepage</a>
+          </li>
+          {%- for post in posts -%}
+              <li>
+                <a class="alt" href="{{ post.url | relative_url }}">{{ post.title  | escape }}</a>
+              </li>
+          {% endfor %}
+        </ul>
+      </nav><!-- Section -->
+
+
+      <footer id="footer">
+        <p class="copyright">&copy; Rakuten Relesae Notices .</p>
+      </footer>
+    </div>
+  </div>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{site.title}} - {{page.title}}</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, user-scalable=no"
+        name="viewport">
+  <link href="{{"/assets/css/main.css" | relative_url }}"
+        rel="stylesheet">
+
+  <script src="{{"/assets/js/jquery.min.js" | relative_url }}"></script> 
+  <script src="{{"/assets/js/browser.min.js" | relative_url }}"></script> 
+  <script src="{{"/assets/js/breakpoints.min.js" | relative_url }}"></script> 
+  <script src="{{"/assets/js/util.js" | relative_url }}"></script> 
+  <script src="{{"/assets/js/main.js" | relative_url }}"></script>
+  <script src="{{"/assets/js/collapse.js" | relative_url }}"></script>
+</head>
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- Main -->
+    <div id="main">
+      <div class="inner">
+        <!-- Header -->
+        <header id="header">
+          <a class="logo"
+                  href="{{ "/" | relative_url }}"><strong>{{ page.title }}</strong></a>
+        </header><!-- Banner -->
+        {{ content }}
+      </div>
+    </div>
+    
+    {% include sidebar.html %}
+
+  </div><!-- Scripts -->
+
+
+</body>
+</html>

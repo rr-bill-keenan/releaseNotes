@@ -1,0 +1,49 @@
+  <div class="productionRelease{{include.content.id}} hiders">
+    <p><a id="{{include.content.id}}"></a></p>
+    <h2 id="test-another-test">Product: {{include.content.ProductName}}</h2>
+    <div class="hiders" style="display:none">
+      <table>
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Link to PRD</th>
+            <th>Squad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{include.content.ProductName}}</td>
+            <td>{{include.content.PRD}}</td>
+            <td>{{include.content.Squad}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 id="whats-changed">Description:</h3>
+      <blockquote>
+        <p>{{include.content.Description}}</p>
+      </blockquote>
+      <h3 id="explain-the-results">What does it look like?:</h3>
+      <blockquote>
+        <p>{{ include.content.Looks}}</p>
+      </blockquote>
+      <h3 id="what-happened-to-cause-this">Documentation:</h3>
+      <blockquote>
+        <p><a href="{{%20include.content.Documentation}}">Link to Documenation</a></p>
+      </blockquote>
+      <h3 id="whats-next">Was this tested?:</h3>
+      <blockquote>
+        <p>{{ include.content.Tested}}</p>
+      </blockquote>
+      <h3 id="whats-next">If so, testing documentation:</h3>
+      <blockquote>
+        <p><a href="{{%20include.content.Documentation}}">Testing Documenation</a></p>
+      </blockquote>
+    </div>
+  </div>
+  <hr>
+  <script>
+  $('.productionRelease{{include.content.id}}').click(function(){
+    $(this).find('.hiders').toggle();
+  });
+  </script>
+

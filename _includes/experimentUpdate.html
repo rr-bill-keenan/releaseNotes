@@ -1,0 +1,50 @@
+
+  
+  <div class="experimentUpdate{{include.content.id}} hiders">
+    <p><a id="{{include.content.id}}"></a>
+    <h2 id="test-another-test">Experiment: {{include.content.TestName}}</h2>
+  </p>
+    <div class="hiders" style="display:none">
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Test Name</th>
+        <th>Link to Result Set</th>
+        <th>Product Analyst</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{include.content.TestName}}</td>
+        <td>{{include.content.Link}}</td>
+        <td>{{include.content.Analyst}}</td>
+      </tr>
+    </tbody>
+  </table>
+    
+      <h3 id="whats-changed">Whats changed:</h3>
+      <blockquote>
+        <p>{{include.content.Change}}</p>
+      </blockquote>
+      <h3 id="explain-the-results">Explain the results:</h3>
+      <blockquote>
+        <p>{{ include.content.Explanation}}</p>
+      </blockquote>
+      <h3 id="what-happened-to-cause-this">What happened to cause this?:</h3>
+      <blockquote>
+        <p>{{ include.content.Reason}}</p>
+      </blockquote>
+      <h3 id="whats-next">Whats Next?:</h3>
+      <blockquote>
+        <p>{{ include.content.WhatsNext}}</p>
+      </blockquote>
+    </div>
+  </div>
+  <hr>
+
+  <script>
+  $('.experimentUpdate{{include.content.id}}').click(function(){
+    $(this).find('.hiders').toggle();
+  });
+  </script>
