@@ -20,7 +20,6 @@ layout: home
 
 {% if site.data[experiments].size > 0 %}
 <h1 id="experiments">Experiments</h1>
-<h3> > Click title for details</h3>
 {% for notes in site.data[experiments] %}
 {% include experiment.html content=notes %}
 {% endfor %}

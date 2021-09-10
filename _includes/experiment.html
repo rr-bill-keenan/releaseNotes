@@ -1,12 +1,12 @@
 <div class="experimentRelease{{include.content.id}} hiders">
 
   <p><a id="{{include.content.id}}"></a></p>
-  <h2 id="test-another-test" style="cursor: pointer;">Experiment: {{include.content.TestName}}</h2>
+  <h2 id="test-another-test" style="cursor: pointer;text-decoration: underline;">> Experiment: {{include.content.TestName}}</h2>
 
   <div class="hiders" style="display:none">
   <table>
     <thead>
-      <tr>
+        <th>Expected Date</th>
         <th>Test Name</th>
         <th>Product Owner</th>
         <th>Squad</th>
@@ -14,6 +14,7 @@
     </thead>
     <tbody>
       <tr>
+        <td>{{include.content.ReleaseDate}}</td>
         <td>{{include.content.TestName}}</td>
         <td>{{include.content.Owner}}</td>
         <td>{{include.content.Squad}}</td>
@@ -63,7 +64,7 @@
       
       <h3 id="whats-next">Details:</h2>
         <blockquote>
-          <p><a href="{{ include.content.Details}}">link to details</a></p>
+          <p><a href="{{ include.content.Details}}" target="_new">link to details</a></p>
         </blockquote>
 
       <h3 id="whats-next">Figma Link:</h2>
