@@ -14,6 +14,8 @@ title: Release Notes Home
   {% endif %}
 
 
+<h2>Release Dates</h2>
+
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
