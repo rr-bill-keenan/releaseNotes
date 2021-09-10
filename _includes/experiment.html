@@ -67,11 +67,12 @@
           <p><a href="{{ include.content.Details}}" target="_new">link to details</a></p>
         </blockquote>
 
+        {% if include.content.Figma != null and include.content.Figma != "" %}
       <h3 id="whats-next">Figma Link:</h2>
         <blockquote>
-          <p><a href="{{ include.content.Figma}}">link to Figma</a></p>
+          <p><a href="{{ include.content.Figma}}" target="_new">link to Figma</a></p>
         </blockquote>
-        
+      {% endif %}
       <h3 id="whats-next">What's Next?:</h2>
           <blockquote>
             <p>{{ include.content.Next}}</p>
