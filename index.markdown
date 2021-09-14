@@ -5,7 +5,23 @@
 layout: home
 title: Release Notes Home
 ---
+<h1>Quick Links</h1>
 
+<p>This will send an update message to the release notice slack channel<p>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=2bCoUwDZzEidflk13I1bFzsOSeWBs-lHk1DsA7zYn_VUNVY3Vlg5STFSUzJZSTJRWTRSSjY5R0RETS4u" target="_new">Heads Up Form</a>
+
+
+<p>Have a Production Release?<p>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=2bCoUwDZzEidflk13I1bFzsOSeWBs-lHk1DsA7zYn_VUOUVQOUk2V1FYTTlBUjcyMkJPTTJFVUpCVi4u" target="_new">Production Release</a>
+
+
+
+<p>Launching an Experiment?<p>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=2bCoUwDZzEidflk13I1bFzsOSeWBs-lHk1DsA7zYn_VUN0w2MFhCOERDQVhHOEtNQ1pQREdGOTRaSS4u" target="_new">New Experiment</a>
+
+
+<p>Updating an Experiment?<p>
+<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=2bCoUwDZzEidflk13I1bFzsOSeWBs-lHk1DsA7zYn_VUQ0hYMEVBNU1GVDY4UExZM0lKSFBFVFY1VS4u" target="_new">Experiment Update</a>
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
