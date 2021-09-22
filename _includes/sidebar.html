@@ -12,7 +12,8 @@
           <li>
             <a href="{{"/" | relative_url }}">Homepage</a>
           </li>
-          {%- for post in posts -%}
+          {% assign sortedPosts = posts | sort: "title" %}
+          {%- for post in sortedPosts %}
               <li>
                 <a class="alt" href="{{ post.url | relative_url }}">{{ post.title  | escape }}</a>
               </li>
