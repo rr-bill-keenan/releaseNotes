@@ -1,0 +1,5 @@
+﻿ID,Email,Name,Owner,Squad,ProductName,LaunchDate,Description,PRD,Looks,Documentation,Tested,TestLink,Attention,Details,Notes
+1,lidia.seline@rakuten.com,Lidia Seline,Lidia Seline,Browse Vertical,"Travel and Vacation page, new feed-based experience","Travel and Vacation page, new feed-based experience","- Travel and Vacation page moved to a feed-based platform with Radiant components
+- New media placements are available to be sold
+- Page updates and management is now faster and easier to do
+- Optimize SEO from a content and build",https://jira.corp.ebates.com/browse/BV-1631,https://www.figma.com/file/jnfWM4YWlCs6VuES4ISwQg/T%26V-2.0?node-id=3300%3A309164&viewport=241%2C48%2C0.44,,yes,https://analytics.amplitude.com/ebates/chart/new/sn6a60u,Sales;Marketing;,,"The sub-categories pages (Car Rental, Airfare, Cruises, Hotels, and Packages) were removed from this release because the current pages have low traffic (less than 200 users/day). Instead of these pages, the sub-category filtration was added to the ""All Stores"" section. In the future, we might review this decision and move these pages back within ""All Categories Transformation"" project."
